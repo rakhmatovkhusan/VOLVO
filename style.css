@@ -1,0 +1,1294 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Passion+One:wght@400;700;900&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+
+nav{
+    width: 100%;
+    height: 64px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 24px;
+    background-color: #fff;
+}
+
+nav img{
+    width: 102px;
+    height: 8px;
+}
+
+.img_1{
+    width: 100%;
+    height: 520px;
+    display: flex;
+    padding-top: 71.5px;
+    justify-content: center;
+    background:url(https://www.volvocars.com/images/v/-/media/applications/locationselector/FOB144_football_pickup_XC90_1920x1080.jpg?w=1920);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 100%;
+    background-position-y: 59.6%;
+}
+
+.img_1_text_div{
+    width: 100%;
+    height: 171.6px;
+    background-color: transparent;
+}
+
+.h1_img_1{
+    width: 100%;
+    height: 72px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: white;
+}
+
+.h1_img_1_p{
+    font-size: 70px;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.button_img_1_div{
+    width: 100%;
+    height: 69.6px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.button_img_1_div button{
+    font-size: 20px;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+    border: #fff solid 1px;
+    transition: .5s;
+}
+
+.button_img_1_div button:hover{
+    background-color: #ffffffa3;
+    transition: .5s;
+}
+
+.concept_view_div{
+    width: 100%;
+    height: 187.4px;
+    padding: 30px 20px;
+    background-color: transparent;
+}
+
+.h2{
+    width: 100%;
+    height: 24.8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+    background-color: transparent;
+}
+
+.h2 h2{
+    margin: 15.3px;
+    font-size: 25.42px;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.view_step_div{
+    width: 100%;
+    height: 61px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: transparent;
+}
+
+.view_step_div span{
+    font-size: 20px;
+    margin: 0 10px;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.accordin_div{
+    width: 100%;
+    height: 571.74px;
+    background-color: transparent;
+}
+
+.accordin_div_text{
+    width: 100%;
+    height: 24.8px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: transparent;
+}
+
+.accordin{
+    width: 1280px;
+    height: 546.94px;
+    margin: 0 120px;
+    padding: 100px;
+    background-color: transparent;
+}
+
+.countries_div{
+    width: 100%;
+    height: 270px;
+    display: flex;
+    background-color: transparent;
+}
+
+.accordion-button{
+    font-size: 28px;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.c_stages{
+    width: 292px;
+    height: 250px;
+    background-color: transparent;
+    font-size: 17px;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.c_stages p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.c_stages_1{
+    width: 292px;
+    height: 620px;
+    background-color: transparent;
+    font-size: 17px;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.c_stages_1 p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.countries_div_1{
+    width: 100%;
+    height: 620px;
+    display: flex;
+    background-color: transparent;
+}
+
+.c_stages_2 p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.c_stages_2{
+    width: 292px;
+    height: 30px;
+    background-color: transparent;
+    font-size: 17px;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.countries_div_2{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    background-color: transparent;
+}
+
+.navbar_2{
+    width: 100%;
+    height: 62px;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    background-color: #fafafa;
+}
+
+.ul_div{
+    width: 542.56px;
+    height: 40px;
+    display: flex;
+    padding-top: 19px;
+    margin-left: 27.8%;
+    align-items: center;
+    background-color:transparent;
+}
+
+.ul_div ul{
+    display: flex;
+}
+
+.ul_div li{
+    font-size: 19px;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.ul_div li:hover{
+    background-color: whitesmoke;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.video_div{
+    width: 100%;
+    height: 652.08px;
+    background: transparent;
+}
+
+.video{
+    width: 100%;
+    height: 651.08px;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 80px;
+    background-color: transparent;
+}
+
+.video_text{
+    width: 367.13px;
+    height: 220px;
+    background-color: transparent;
+}
+
+.video_text p{
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.button_video_div{
+    width: 100%;
+    height: 47.6px;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.button_1{
+    width: 154.01px;
+    height: 47.6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+.button_2{
+    width: 189.11px;
+    height: 47.6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: solid 2px white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+}
+
+.button_2:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+
+.button_1:hover{
+    background-color: rgb(226, 224, 224);
+}
+
+.background-clip{
+    width: 100%;
+    height: 674px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.range_of_cars_div{
+    width: 100%;
+    height: 517.2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    margin-top: 100px;
+}
+
+.range_of_cars{
+    width: 81%;
+    height: 517.2px;
+    background-color: transparent;
+}
+
+.range_h1{
+    width: 100%;
+    height: 36.31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.car_types_div{
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 0px 0px;
+    background-color: transparent;
+}
+
+.empty_1{
+    width: 332.66px;
+    height: 48px;
+    background-color: transparent;
+}
+
+.empty_2{
+    width: 332.66px;
+    height: 48px;
+    background-color: transparent;
+}
+
+.types_main{
+    width: 550.76px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+}
+
+.types_main button{
+    height: 48px;
+    padding: 0px 8px;
+    border: none;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cars_div{
+    width: 100%;
+    height: 286.89px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    place-items: center;
+    background-color: transparent;
+    margin-top: 10px;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+    height: 2px;
+}
+
+::-webkit-scrollbar-corner{
+    display: none;
+
+}
+
+::-webkit-scrollbar-thumb{
+    background: black;
+}
+
+
+.cars_feature_1{
+    width: 288px;
+    height: 270.5px;
+    padding: 0px 21.3px;
+    background-color: rgb(246, 246, 246);
+    cursor: pointer;
+}
+
+.cars_feature_2{
+    width: 288px;
+    height: 270.5px;
+    margin-left:12px;
+    padding: 0px 21.3px;
+    background-color:rgb(246, 246, 246);
+    cursor: pointer;
+}
+
+.cars_feature_3{
+    width: 288px;
+    height:270.59px;
+    margin-left:12px;
+    padding: 0px 21.3px;
+    background-color: rgb(246, 246, 246);
+    cursor: pointer;
+}
+
+.cars_feature_4{
+    width: 288px;
+    height: 270.5px;
+    margin-left:12px;
+    padding: 0px 21.3px;
+    background-color: rgb(246, 246, 246);
+    cursor: pointer;
+}
+
+.cars_feature_5{
+    width: 288px;
+    height: 270.5px;
+    margin-left:12px;
+    padding: 0px 21.3px;
+    background-color: rgb(246, 246, 246);
+    cursor: pointer;
+}
+
+.cars_feature_6{
+    width: 288px;
+    height: 270.5px;
+    margin-left:12px;
+    padding: 0px 21.3px;
+    background-color: rgb(246, 246, 246);
+    cursor: pointer;
+}
+
+.cars_feature_7{
+    width: 288px;
+    height: 270.5px;
+    margin-left:12px;
+    padding: 0px 21.3px;
+    background-color: rgb(246, 246, 246);
+    cursor: pointer;
+}
+
+.cars_feature_8{
+    width: 288px;
+    height: 270.5px;
+    margin-left:12px;
+    padding: 0px 21.3px;
+    background-color: rgb(246, 246, 246);
+    cursor: pointer;
+}
+
+.cars_feature_9{
+    width: 288px;
+    height: 270.5px;
+    margin-left:12px;
+    padding: 0px 21.3px;
+    background-color: rgb(246, 246, 246);
+    cursor: pointer;
+}
+
+.cars_feature_10{
+    width: 288px;
+    height: 270.5px;
+    margin-left:12px;
+    padding: 0px 21.3px;
+    background-color: rgb(246, 246, 246);
+    cursor: pointer;
+}
+
+.cars_feature_1:hover{
+    background-color: #f0efef;
+}
+
+.cars_feature_2:hover{
+    background-color: #f0efef;
+}
+
+.cars_feature_3:hover{
+    background-color: #f0efef;
+}
+
+.cars_feature_4:hover{
+    background-color: #f0efef;
+}
+
+.cars_feature_5:hover{
+    background-color: #f0efef;
+}
+
+.cars_feature_6:hover{
+    background-color: #f0efef;
+}
+
+.cars_feature_7:hover{
+    background-color: #f0efef;
+}
+
+.cars_feature_8:hover{
+    background-color: #f0efef;
+}
+
+.cars_feature_9:hover{
+    background-color: #f0efef;
+}
+
+.cars_feature_10:hover{
+    background-color: #f0efef;
+}
+
+.img_cars_1{
+    width: 100%;
+    height: 102.85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    background-color: transparent;
+}
+
+.img_cars_2{
+    width: 100%;
+    height: 102.85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    background-color: transparent;
+}
+
+.img_cars_3{
+    width: 100%;
+    height: 102.85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    background-color: transparent;
+}
+
+.img_cars_4{
+    width: 100%;
+    height: 102.85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    background-color: transparent;
+}
+
+.img_cars_5{
+    width: 100%;
+    height: 102.85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    background-color: transparent;
+}
+
+.img_cars_6{
+    width: 100%;
+    height: 102.85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    background-color: transparent;
+}
+
+.img_cars_7{
+    width: 100%;
+    height: 102.85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    background-color: transparent;
+}
+
+.img_cars_8{
+    width: 100%;
+    height: 102.85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    background-color: transparent;
+}
+
+.img_cars_9{
+    width: 100%;
+    height: 102.85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    background-color: transparent;
+}
+
+.img_cars_10{
+    width: 100%;
+    height: 102.85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    background-color: transparent;
+}
+
+.img_cars_1 img{
+    width: 100%;
+    height: 102px;
+}
+
+.img_cars_2 img{
+    width: 100%;
+    height: 102px;
+}
+
+.img_cars_3 img{
+    width: 100%;
+    height: 102px;
+}
+
+.img_cars_4 img{
+    width: 100%;
+    height: 102px;
+}
+
+.img_cars_5 img{
+    width: 100%;
+    height: 102px;
+}
+
+.img_cars_6 img{
+    width: 100%;
+    height: 102px;
+}
+
+.img_cars_7 img{
+    width: 100%;
+    height: 102px;
+}
+
+.img_cars_8 img{
+    width: 100%;
+    height: 102px;
+}
+
+.img_cars_9 img{
+    width: 100%;
+    height: 102px;
+}
+
+.img_cars_10 img{
+    width: 100%;
+    height: 102px;
+}
+
+.img_cars_1_concept{
+    width: 100%;
+    height: 68px;
+    background-color: transparent;
+    margin-top: 14px;
+}
+
+.img_cars_2_concept{
+    width: 100%;
+    height: 68px;
+    background-color: transparent;
+    margin-top: 14px;
+}
+
+.img_cars_3_concept{
+    width: 100%;
+    height: 68px;
+    background-color: transparent;
+    margin-top: 14px;
+}
+
+.img_cars_4_concept{
+    width: 100%;
+    height: 68px;
+    background-color: transparent;
+    margin-top: 14px;
+}
+
+.img_cars_5_concept{
+    width: 100%;
+    height: 68px;
+    background-color: transparent;
+    margin-top: 14px;
+}
+
+.img_cars_6_concept{
+    width: 100%;
+    height: 68px;
+    background-color: transparent;
+    margin-top: 14px;
+}
+
+.img_cars_7_concept{
+    width: 100%;
+    height: 68px;
+    background-color: transparent;
+    margin-top: 14px;
+}
+
+.img_cars_8_concept{
+    width: 100%;
+    height: 68px;
+    background-color: transparent;
+    margin-top: 14px;
+}
+
+.img_cars_9_concept{
+    width: 100%;
+    height: 68px;
+    background-color: transparent;
+    margin-top: 14px;
+}
+
+.img_cars_10_concept{
+    width: 100%;
+    height: 68px;
+    background-color: transparent;
+    margin-top: 14px;
+}
+
+.button_1_first{
+    background-color: white;
+}
+
+.button_2_second{
+    background-color: white;
+}
+
+.button_3_third{
+    background-color: white;
+}
+
+.button_4_fourth{
+    background-color: white;
+}
+
+.button_5_fifth{
+    background-color: white;
+}
+
+.button_6_sixth{
+    background-color: white;
+}
+
+.button_1_first:hover{
+    background-color: #f0efef;
+}
+
+.button_2_second:hover{
+    background-color: #f0efef;
+}
+
+.button_3_third:hover{
+    background-color: #f0efef;
+}
+
+.button_4_fourth:hover{
+    background-color: #f0efef;
+}
+
+.button_5_fifth:hover{
+    background-color: #f0efef;
+}
+
+.button_6_sixth:hover{
+    background-color: #f0efef;
+}
+
+.compare_button_div{
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: transparent;
+    margin-top: 71.2px;
+}
+
+.compare_button_div button{
+    height: 48px;
+    font-size: 16px;
+    border: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    background-color: white;
+    cursor: pointer;
+}
+
+.compare_button_div button:hover{
+    text-decoration: underline;
+}
+
+.information_picture_div{
+    width: 100%;
+    height: 1220.6px;
+    margin: 96px 0px;
+    padding: 96px 24px;
+    background-color: #fafafa;
+}
+
+.information_picture_section{
+    width: 100%;
+    height: 1028.6px;
+    padding: 0 8.1%;
+    background-color: transparent;
+}
+
+.why_volvo_div{
+    width: 100%;
+    height: 116px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.why_volvo_div span{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.img_volvo{
+    width: 100%;
+    height: 693px;
+    background:url(https://www.volvocars.com/images/cs/v3/assets/blt618dcb179a89242d/blt8b193448d24bd8ae/655f520509b76a000da0a3eb/homepage-whyvolvo-desktop-16x9.jpg?branch=prod_alias&auto=webp&iar=0&w=1920&imdensity=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.concept_volvo_div{
+    width: 100%;
+    height: 108px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    background-color: transparent;
+}
+
+.concept_volvo_part{
+    width: 394.66px;
+    height: 84px;
+    background-color: transparent;
+}
+
+.concept_volvo_part_1{
+    width: 394.66px;
+    height: 108px;
+    background-color: transparent;
+}
+
+.learn_more_div{
+    width: 100%;
+    height: 47.6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 34px;
+    background-color: transparent;
+}
+
+.learn_more_div button{
+    width: 249.49px;
+    height: 47.6px;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    color: #2a609d;
+    background-color: #fafafa;
+    border-radius: 5px;
+    border: solid #2a609d 1px;
+    transition: 0.3s;
+}
+
+.learn_more_div button:hover{
+    background-color: #2a609d;
+    color: #fff;
+}
+
+.concepts_of_volvo_div{
+    width: 100%;
+    height: 676.81px;
+    padding: 0 9.4%;
+    background-color: transparent;
+}
+
+.concepts_of_volvo_text{
+    width: 100%;
+    height: 172.31px;
+    background-color: transparent;
+}
+
+.concepts_of_volvo_text p{
+    font-size: 32px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: #000000f5;
+}
+
+.concepts_of_volvo_text span{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    color: #000000f3;
+}
+
+.p_volvo_text{
+    width: 100%;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.p_volvo_text p{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    color: #000000f3;
+}
+
+.cars_volvo_shows_div{
+    width: 100%;
+    height: 504.5px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.volvo_cars_three_divs{
+    width: 394.24px;
+    height: 504.5px;
+    background-color: transparent;
+}
+
+.tree_div_text{
+    width: 394px;
+    height: 258px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: space-between;
+    padding: 48px 24px;
+    background-color: #fafafa;
+}
+
+.first_tree_div_text{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: #000000f5;
+}
+
+.second_tree_div_text{
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    color:#000000a3;
+}
+
+.third_tree_div_text{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #2a609d;
+}
+
+.third_tree_div_text a{
+    text-decoration: none;
+    color: #2a609d;
+}
+
+.third_tree_div_text a:hover{
+    text-decoration: underline;
+}
+
+.tree_img_1{
+    width: 100%;
+    height: 221.86px;
+    background:url(https://www.volvocars.com/images/cs/v3/assets/blt618dcb179a89242d/blt392be036ddf001f4/65d480fbc33ff1000d625582/ex40_tilesbundle_16x9.jpg?branch=prod_alias&auto=webp&iar=0&w=1920&imdensity=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tree_img_2{
+    width: 100%;
+    height: 221.86px;
+    background: #fafafa url(https://www.volvocars.com/images/cs/v3/assets/blt618dcb179a89242d/blt28efd58a76b25085/6583d8b84616a6000dc26589/xc60-rechargetaillight.png?branch=prod_alias&auto=webp&iar=0&w=1920&imdensity=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tree_img_3{
+    width: 100%;
+    height: 221.86px;
+    background:url(https://www.volvocars.com/images/cs/v3/assets/blt618dcb179a89242d/blte8551a54c51c182b/65d8b509726da8000d936e44/ec40_tilesbundle_16x9.jpg?branch=prod_alias&auto=webp&iar=0&w=1920&imdensity=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.link_chart_div{
+    width: 100%;
+    height: 389px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 96px 143.6px;
+    background-color: transparent;
+}
+
+.link_chart{
+    width: 100%;
+    height: 194.4px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.link_chart_in{
+    width: 845.33px;
+    height: 194.4px;
+    background-color: transparent;
+}
+
+.link_chart_in_four{
+    width: 100%;
+    height: 146.4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+}
+
+.link_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    color: #000000f5;
+}
+
+.link_1{
+    width: 414.2px;
+    height: 146.4px;
+    background-color: transparent;
+}
+
+.link_2{
+    width: 414.2px;
+    height: 146.4px;
+    background-color: transparent;
+}
+
+.link_1_in{
+    width: 100%;
+    height: 73.6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.1px solid #000000f3;
+    background-color: transparent;
+    color: #2a609d;
+}
+
+.link_1_in p:hover{
+    color: #000000f5;
+    cursor: pointer;
+}
+
+.link_2_in{
+    width: 100%;
+    height: 73.6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.1px solid #000000a3;
+    color: #2a609d;
+    background-color: transparent;
+}
+
+.link_2_in p:hover{
+    color: #000000f5;
+    cursor: pointer;
+}
+
+.link_1_in svg{
+    width: 22px;
+    height: 22px;
+    color: #000000a3;
+}
+
+.link_2_in svg{
+    width: 22px;
+    height: 22px;
+    color: #000000a3;
+}
+
+footer{
+    width: 100%;
+    height: 344.08px;
+    padding: 32px;
+    background-color: #fafafa;
+}
+
+.button_footer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+    margin-left:20px ;
+    border: none;
+    background-color: #fafafa;
+}
+
+.button_footer svg{
+    width: 25px;
+    height: 25px;
+}
+
+.button_footer_div{
+    width: 100%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fafafa;
+}
+
+.button_footer_location{
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 49px;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    background-color: #fafafa;
+}
+
+.social_media{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    margin-top: 25px;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #fafafa;
+}
+
+.social_media ul{
+    list-style: none;
+    display: flex;
+}
+
+.social_media li{
+    width: 20px;
+    height: 20px;
+    margin: 0 20px;
+}
+
+.social_media svg:hover{
+    cursor: pointer;
+    transition: .3s;
+}
+
+.social_media svg{
+    transition: .3s;
+}
+
+.footer_end_text{
+    width: 100%;
+    height: 48.08px;
+    margin-top: 24px;
+    background-color: #fafafa;
+}
+
+.footer_end_text ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+}
+
+.footer_end_text li{
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style: none;
+    margin: 0 8px;
+    color: #000000a3;
+    font-weight: lighter;
+}
+
+.footer_end_text li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer_end_text p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #000000a3;
+    font-weight: lighter;
+}
+
+.footer_end_text p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
